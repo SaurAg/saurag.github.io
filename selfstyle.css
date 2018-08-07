@@ -90,6 +90,9 @@ img.myPhoto{
 	padding: 10px;
 	margin: auto;
 	height: 60px;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
 	border: 1px solid black;
 	background-color: #d4b861;
 	text-align: center;
@@ -164,4 +167,50 @@ img.myPhoto{
 .in_nav a{
 	text-decoration: none;
 	color: black;
+}
+
+.projPhoto{
+	margin-top: 25px;
+	border: 1px solid black;
+	border-radius: 5%;
+	width: 80%;
+	height: auto;
+}
+
+.projTitle{
+	font-family: 'Arvo', serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: #4d4d4d;	
+	text-decoration: underline;
+}
+
+.projText{
+	font-family: 'Arvo', serif;
+    font-size: 17px;
+    font-weight: 400;	
+}
+
+.button{
+	width: auto;
+	padding: 3px 5px;
+	font-family: 'Julius Sans One', sans-serif;
+    font-size: 16px;
+	font-weight: 500;
+	border: 1px solid black;
+    background-color: #d4b861;
+    text-align: center;
+    border-radius: 7%;
+	margin: auto;
+}
+
+.projButtons a{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	margin: 0px 17px;
+}
+
+.newProj{
+	margin: 25px 0px;
 }
