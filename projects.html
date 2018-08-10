@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">	
 <head>
-	<title>Saurabh's Website</title>
+	<title>Saurabh's Projects</title>
 	<link href="https://fonts.googleapis.com/css?family=Arvo|Tangerine" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -21,16 +21,18 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-5">
-					<p class="occupation">Student</p>
-				</div>
-				<nav class="navi col-md-7">
-					<div class="col-md"><a href="index.html">ABOUT ME</a></div>
-					<div class="col-md"><a class="current" href="">PROJECTS</a></div>
-					<div class="col-md"><a href="activities.html">ACTIVITIES</a></div>
-					<div class="col-md"><a href="contact.html">CONTACT ME</a></div>
-				</nav>	
-			</div>
+                <div class="col-md-3">
+                    <p class="occupation">Student</p>
+                </div>
+                <nav class="navi col-md-9">
+                    <div class="row">
+                        <a class="col-md-2 main_nav_button" id="about_me_nav" href="index.html">ABOUT ME</a>
+                        <a class="col-md-2 current main_nav_button" href="">PROJECTS</a>
+                        <a class="col-md-2 main_nav_button" href="activities.html">ACTIVITIES</a>
+                        <a class="col-md-2 main_nav_button" href="contact.html">CONTACT ME</a>
+                    </div>
+                </nav>
+            </div>
         </header>
         <div class="row">
             <p class="hi" style="text-decoration: underline;">Projects Undertaken By Me:</p>
@@ -48,7 +50,7 @@
                     it. This project is a team work of me and one of my friend.
                 </p>
                 <div class="row projButtons" style="margin-top: 20px;">
-                    <a href="http://ec2-13-232-65-124.ap-south-1.compute.amazonaws.com:8000/polls/main_page/" target="_blank"><div class="button">Go to Application</div></a>
+                    <a href="http://ec2-13-232-65-124.ap-south-1.compute.amazonaws.com:8000/polls/main_page/" target="_blank"><div class="button" id="long_button1">Go to Application</div></a>
                     <a href="https://github.com/SaurAg/calender_WebApp" target="_blank"><div class="button">View Source Code</div></a>  
                 </div>
             </div>    
@@ -146,7 +148,7 @@
                     by me, the links to which are given below.
                 </p>
                 <div class="row projButtons" style="margin-top: 20px;">
-                    <a href="https://drive.google.com/drive/folders/1nsimeZUKq8BN2nYdQXLTUSYRNapFbBRp" target="_blank"><div class="button">Go to Drive Folder</div></a>  
+                    <a href="https://drive.google.com/drive/folders/1nsimeZUKq8BN2nYdQXLTUSYRNapFbBRp" target="_blank"><div class="button" id="long_button2">Go to Drive Folder</div></a>  
                     <a href="https://drive.google.com/open?id=1QorgBOvjdEadB_anWL_SNhkB7CzXhyti" target="_blank"><div class="button">See the Presentation</div></a>  
                 </div>
             </div>
@@ -164,7 +166,7 @@
                                 <br><i class="fa fa-phone icons" aria-hidden="true"><br></i>
                             </div>	
                             <div class="col-md-10">
-                                <p class="icontext"><strong>Call:</strong><br>+91 8415859101<br>+91 8971592877</p>
+                                <p class="icontext"><strong>Phone:</strong><br>+91 8415859101&nbsp;<i class="fa fa-whatsapp" aria-hidden="true"></i><br>+91 8971592877</p>
                             </div>
                         </div>
                     </div>	
@@ -174,7 +176,7 @@
                                 <br><i class="fa fa-envelope icons" aria-hidden="true"><br></i>
                             </div>	
                             <div class="col-md-10">
-                                <p class="icontext"><strong>Email:</strong><br>saur.agarwala@gmail.com<br>171it237.saurag@nitk.edu.in</p>
+                                <p class="icontext"><strong>Email:</strong><br><a href="mailto:saur.agarwala@gmail.com" style="color: white;">saur.agarwala@gmail.com</a><br><a href="mailto:171it237.saurag@nitk.edu.in" style="color: white;">171it237.saurag@nitk.edu.in</a></p>
                             </div>
                         </div>
                     </div>
@@ -185,13 +187,12 @@
                             </div>	
                             <div class="col-md-10">
                                 <p class="icontext"><strong>Connect With Me:</strong><br>
-                                    <a  href="https://www.facebook.com/saur.agarwala/" target="_blank"><i  class="fa fa-facebook icons_in"></i></a>&nbsp; 
-                                    <a href="https://www.instagram.com/ag_saur/" target="_blank"><i class="fa fa-instagram icons_in"></i></a>&nbsp;
-                                    <a  href="https://plus.google.com/u/0/109605321957028283134/" target="_blank"><i class="fa fa-google-plus icons_in" aria-hidden="true"></i></a>&nbsp;
-                                    <br>  
-                                    <a href="https://twitter.com/Ag_Saur/" target="_blank"><i class="fa fa-twitter icons_in"></i></a>&nbsp;  
-                                    <a href="https://www.github.com/SaurAg/" target="_blank"><i class="fa fa-github icons_in"></i></a>&nbsp;&nbsp;
-                                    <a href="https://www.linkedin.com/in/saurabh-agarwala-6ba109165/" target="_blank"><i class="fa fa-linkedin icons_in"></i></a>&nbsp;  
+                                    <a class="col" href="https://www.facebook.com/saur.agarwala/" target="_blank"><i  class="fa fa-facebook icons_in"></i></a> 
+                                    <a class="col" href="https://www.instagram.com/ag_saur/" target="_blank"><i class="fa fa-instagram icons_in"></i></a>
+                                    <a class="col" href="https://plus.google.com/u/0/109605321957028283134/" target="_blank"><i class="fa fa-google-plus icons_in" aria-hidden="true"></i></a>
+                                    <a class="col" href="https://twitter.com/Ag_Saur/" target="_blank"><i class="fa fa-twitter icons_in"></i></a>
+                                    <a class="col" href="https://www.github.com/SaurAg/" target="_blank"><i class="fa fa-github icons_in"></i></a>
+                                    <a class="col" href="https://www.linkedin.com/in/saurabh-agarwala-6ba109165/" target="_blank"><i class="fa fa-linkedin icons_in"></i></a> 
                                 </p>
                             </div>
                         </div>
@@ -202,7 +203,7 @@
                                 <br><i class="fa fa-copyright icons" aria-hidden="true"><br></i>
                             </div>	
                             <div class="col-md-10">
-                                <p class="icontext">Last Updated on 9th August<br>Coded with&nbsp;&nbsp;<i class="fa fa-heart" aria-hidden="true" style="color: red; font-size: 20px;"></i>&nbsp;&nbsp;by<br><strong>Saurabh Agarwala</strong></p>
+                                <p class="icontext">Last Updated on 10th August<br>Coded with&nbsp;&nbsp;<i class="fa fa-heart" aria-hidden="true" style="color: red; font-size: 20px;"></i>&nbsp;&nbsp;by<br><strong>Saurabh Agarwala</strong></p>
                             </div>
                         </div>
                     </div>
