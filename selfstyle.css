@@ -90,7 +90,7 @@ img.myPhoto{
 	border: 1px solid black;
 	background-color: #d4b861;
 	text-align: center;
-	border-radius: 5%;
+	border-radius: 10px;
 }
 
 .footer{
@@ -188,7 +188,7 @@ img.myPhoto{
 	border: 1px solid black;
     background-color: #d4b861;
     text-align: center;
-    border-radius: 7%;
+    border-radius: 7px;
 	margin: auto;
 }
 
@@ -251,12 +251,12 @@ p.act_title{
 	}
 
 	div.button{
-		margin: 5px 40px;
+		margin: 5px 55px;
 		width: 85%;
 	}
 
 	#long_button1, #long_button2{
-		margin: 5px 43px;
+		margin: 5px 58px;
 		width: 85%;
 	}
 
@@ -270,6 +270,10 @@ p.act_title{
 
 	div.circle{
 		margin: 2px 0px;
+	}
+
+	#button_m_p_info{
+		padding: 13px 5px;
 	}
 }
 
