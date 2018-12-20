@@ -1,1 +1,6 @@
-Sitemap: https://saurabhagarwala.github.io/sitemap.txt
+User-agent: *
+
+Allow: / /projects.html/ /activities.html/ /contact.html/
+
+Disallow:
+
