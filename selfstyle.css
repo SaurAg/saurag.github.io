@@ -12,6 +12,7 @@
 
 .name{
 	margin-top: 5px;
+	margin-bottom: 15px;
 	font-family: 'Arvo', serif;
 	font-size: 45px;
 	color: #4d4d4d;
@@ -21,7 +22,7 @@
 	font-family: 'Tangerine', cursive;
 	font-size: 50px;
 	color: #4d4d4d;
-	margin-top: -25px;
+	margin-top: -10px;
 }
 
 nav.navi a{
@@ -56,10 +57,18 @@ img.myPhoto{
 	border: solid #4d4d4d 1px;
 }
 
-.hi{
+#hiThere{
 	font-family: 'Tangerine', cursive;
 	font-size: 50px;
 	font-weight: 700;
+	color: #4d4d4d;	
+}
+
+.hi{
+	margin-top: 5px;
+	font-family: 'Tangerine', cursive;
+	font-size: 50px;
+	font-weight: 600;
 	color: #4d4d4d;	
 }
 
