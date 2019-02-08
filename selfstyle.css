@@ -61,7 +61,8 @@ img.myPhoto{
 	font-family: 'Tangerine', cursive;
 	font-size: 50px;
 	font-weight: 700;
-	color: #4d4d4d;	
+	color: #4d4d4d;
+	margin-bottom: 0px;
 }
 
 .hi{
@@ -76,7 +77,9 @@ img.myPhoto{
 	font-family: 'Tangerine', cursive;
 	font-size: 50px;
 	font-weight: 400;
-	color: #4d4d4d;		
+	color: #4d4d4d;
+	margin-top: 0px;
+	margin-bottom: 0px; 		
 }
 
 .welcome_msg{
@@ -122,6 +125,10 @@ img.myPhoto{
 	color: white;
 	font-size: 20px;
 	padding-left: 4px;
+}
+
+#last_updated{
+	font-size: 15px;
 }
 
 /*#jstriggered{
@@ -217,7 +224,7 @@ p.act_title{
 	font-size: 50px;
 	font-weight: 700;
 	color: #4d4d4d;	
-	text-align: center;???
+	text-align: center;
 }
 
 .maps{
