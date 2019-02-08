@@ -249,6 +249,12 @@ p.act_title{
 	padding: 15px 5px;
 }
 
+#speechtox>a{
+	color: #4d4d4d;
+	text-decoration: underline;
+	font-size: 18px; 
+}
+
 @media(max-width: 767px){
 	body{
 		text-align: center;
