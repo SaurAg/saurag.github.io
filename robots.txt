@@ -3,4 +3,3 @@ User-agent: *
 Allow: / /projects.html/ /activities.html/ /contact.html/
 
 Disallow:
-
