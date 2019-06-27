@@ -3,3 +3,5 @@ User-agent: *
 Allow: / /projects.html/ /activities.html/ /contact.html/
 
 Disallow: /Saurabh_Agarwala's_Resume.pdf
+
+Sitemap: https://saurabhagarwala.github.io/sitemap.xml
