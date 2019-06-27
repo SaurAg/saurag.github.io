@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: / /projects.html/ /activities.html/ /contact.html/
 
-Disallow:
+Disallow: /Saurabh_Agarwala's_Resume.pdf
