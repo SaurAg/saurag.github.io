@@ -262,6 +262,10 @@ p.act_title{
 	font-size: 18px; 
 }
 
+#button_more_about_me{
+	padding: 15px 5px;
+}
+
 @media(max-width: 767px){
 	body{
 		text-align: center;
@@ -294,7 +298,7 @@ p.act_title{
 		margin: 2px 0px;
 	}
 
-	#button_m_p_info{
+	#button_more_about_me{
 		padding: 13px 5px;
 	}
 }
