@@ -165,6 +165,12 @@ img.myPhoto{
 	font-weight: 700;
 }
 
+.experience_item>a{
+	color: black;
+	text-decoration: underline;
+	font-weight: 500;
+}
+
 .context ul li{
 	font-family: 'Arvo', serif;
 	font-size: 17px;
@@ -251,7 +257,7 @@ p.act_title{
 	margin: 0px 7px;
 }
 
-#about_me_nav{
+#intro_nav{
 	margin: 0px 7px 0px 22%;
 }
 
@@ -265,8 +271,18 @@ p.act_title{
 	font-size: 18px; 
 }
 
-#button_more_about_me{
+#button_education{
 	padding: 15px 5px;
+}
+
+.experience_profile{
+	margin-bottom: 10px;
+}
+
+.projText>a{
+	color: black;
+	text-decoration: underline;
+	font-size: 16px; 
 }
 
 @media(max-width: 767px){
@@ -293,7 +309,7 @@ p.act_title{
 		margin: 2px 0px;
 	}
 
-	#about_me_nav{
+	#intro_nav{
 	margin: 0px;
 	}
 
@@ -301,13 +317,13 @@ p.act_title{
 		margin: 2px 0px;
 	}
 
-	#button_more_about_me{
+	#button_education{
 		padding: 13px 5px;
 	}
 }
 
 @media (min-width:577px) and (max-width: 767px){
-	#button_m_edu{
+	#button_experience{
 		padding: 4px 5px;
 	}
 }
